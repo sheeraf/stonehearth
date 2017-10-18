@@ -1,0 +1,16 @@
+use case : 
+précondition : joueur connecté
+Scénarios :
+1- Le joueur lance une partie
+2- le systéme affiche les decks
+3- le joueur choisit son deck
+4- le systéme trouve un joueur de rang >= ou <= 3 
+5- le systéme transmet les deux decks au moteur du jeu
+6- le systéme determine quel joueur a gagné
+7- Chaque partie gagnée incrémente le rang (sauf s'il est 100), chaque partie perdue le décrémente de 1 (sauf s'il est à 0). 
+8- le joueur relance une partie
+post condition : le rang du joueur est mis à jour.
+
+Alternatives : 
+A1 : En SN3 , le joueur peut choisir de créer un deck (débloquer emplacement)
+Exceptions : Quitter jeu

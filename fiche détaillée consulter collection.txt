@@ -1,0 +1,24 @@
+UC : consulter collection
+pré-condition : joueur connecté
+Scénario Nominal :
+1- le systéme affiche la collection des carte du joueur
+2- le joueur selectionne une carte
+3- le systéme propose de créer ou de détruire carte
+4- le joueur choisit de détruire la carte
+5- le systéme demande si le joueur est sur de vouloir détruire la carte
+6- le systéme détruit la carte si le joueur est d'accord
+7- le systéme met à jour le nombre de joyaux du joueur et la collection des cartes
+8- le joueur quitte la consualtation
+post-condition : Mise à jour de la collection des cartes et du nombre des joyaux
+
+Alternatives:
+A1 : en SN4 le joueur choisit de créer un carte 
+	A1.1 le systéme affiche le catalogue des cartes	
+	A1.2 le joueur choisit carte
+	A1.3 le systéme met à jour le nombre de joyaux du joueur et la collection des cartes
+	A1.4 retour en SN8
+
+A2 : en SN8,le joueur retourne en SN1
+
+Exceptions :
+E1 : le systéme ne propose pas de créer une carte si le solde des joyaux n'est pas suffisant
