@@ -8,9 +8,9 @@ Préconditions : L’utilisateur a déjà un compte et n’est pas encore se con
 
 SN :
 
-·         S1 : L’acteur saisit son identifiant et son mot de passe.
+·         S1 : L’acteur choisit "se connecter".
 
-·         S2 : L’acteur cliquer sur bouton se connecter.
+·         S2 : L’acteur saisit son identifiant et son mot de passe.
 
 ·         S3 : Système vérifie que les informations sont correctes.
 
@@ -26,7 +26,22 @@ Alternatives :
 
 ·         A1 : Le système mémorise le mot de passe et l’identifiant.
 
-o   A1.1 : Retour au S2.
+o   A1.1 : L’acteur choisit "se connecter".
+
+o   A1.2 : Retour au S3.
+
+·         A2 : L'acteur ne sait pas son mot de passe.
+
+o   A2.1 : L’acteur choisit "se connecter".
+
+o   A2.2 : L'acteur choisit "obtenir un nouveau mot de passe"
+
+o   A2.3 : L'acteur saisit nouveau mot de passe deux fois et le confirmer.
+
+o   A2.4 : Le systeme verifie le changement du mot de passe et le mise à jour.
+
+o   A2.5 : Retour au S2.
+
 
 Exceptions :
 
