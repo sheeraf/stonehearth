@@ -13,17 +13,13 @@ SN :
 
 ·         S1 : L’acteur clique sur "S'inscrire pour un nouveau compte"
 
-·         S2 : Entrées utilisateur informations requises
+·         S2 : Entrées utilisateur informations requises (un nom d’utilisateur,mot de passe)
 
-·         S3 : L’acteur sélectionne un nom d’utilisateur
+·         S4 : L’acteur peut saisir les informations bancaires. (facultatif)
 
-·         S4 : Système vérifie le nom d’utilisateur n’existe pas.   
+·         S5 : Système vérifie que les informations sont complètes et correctement saisis.
 
-·         S5 : L’acteur peut saisir les informations bancaires. (facultatif)
-
-·         S6 : Clique sur "Créer mon compte"
-
-·         S7 : Système vérifie que les informations sont complètes et correctement saisis.
+·         S6 : Système creer un compte et le mise a jour.
 
 Post-conditions :
 
