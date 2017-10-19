@@ -1,0 +1,54 @@
+
+ 
+
+Nom du cas : Créer un compte
+
+Description : Un utilisateur souhait créer un compte.
+
+Acteurs : Utilisateur
+
+Préconditions : L’utilisateur n’a pas un compte.
+
+SN :
+
+·         S1 : L’acteur clique sur "S'inscrire pour un nouveau compte"
+
+·         S2 : Entrées utilisateur informations requises
+
+·         S3 : L’acteur sélectionne un nom d’utilisateur
+
+·         S4 : Système vérifie le nom d’utilisateur n’existe pas.   
+
+·         S5 : L’acteur peut saisir les informations bancaires. (facultatif)
+
+·         S6 : Clique sur "Créer mon compte"
+
+·         S7 : Système vérifie que les informations sont complètes et correctement saisis.
+
+Post-conditions :
+
+·         1 : Système peut mémoriser l’identifiant et mot de passe d’acteur.
+
+·         2 : Système rediriger l’acteur vers le page « se connecter ».
+
+·         3 : Système enregistrer les informations du compte.
+
+Alternatives :
+
+Exceptions :
+
+·         E1 : L'utilisateur crée une combinaison nom d'utilisateur / mot de passe en dehors des limites indiquées  (L’enchainement démarre au point de SN7.)
+
+o   E1.1 : Système affiche « Changer votre nom d’utilisateur / mot de passe »
+
+o   E1.2 : Retour au S2.
+
+Fin d’interaction.
+
+·         E2 : L’acteur a déjà un compte.
+
+o   E2.1 : Le système affiche « Vous avez un compte»
+
+o   E2.2 : Diriger vars le page « Se Connecter ».
+
+Fin d’interaction.
