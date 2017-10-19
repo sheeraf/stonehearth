@@ -1,0 +1,55 @@
+Nom du cas : Se Connecter
+
+Description : Un utilisateur souhait se connecter au système.
+
+Acteurs : Joueur
+
+Préconditions : L’utilisateur a déjà un compte et n’est pas encore se connecté.
+
+SN :
+
+·         S1 : L’acteur saisit son identifiant et son mot de passe.
+
+·         S2 : L’acteur cliquer sur bouton se connecter.
+
+·         S3 : Système vérifie que les informations sont correctes.
+
+·         S4 : Système affiche « Se Connecter Avec Succès »
+
+Post-conditions :
+
+·         1 : Système peut mémoriser l’identifiant et mot de passe d’acteur.
+
+·         2 : Système rediriger l’acteur vers l’interface de joueurs connectées.
+
+Alternatives :
+
+·         A1 : Le système mémorise le mot de passe et l’identifiant.
+
+o   A1.1 : Retour au S2.
+
+Exceptions :
+
+·         E1 : La connexion d’internet a été perdue. (L’enchainement démarre à n’importe quel point de SN.)
+
+o   E1.1 : Système affiche « Vous n’avez pas connexion d’internet »
+
+o   E1.2 : Retour au S1.
+
+Fin d’interaction.
+
+·         E2 : L’identifiant ou le mot de passe est faux.
+
+o   E2.1 : Le système affiche « Votre identifiant ou mot de passe incorrect »
+
+o   E2.2 : Retour au S2.
+
+Fin d’interaction.
+
+·         E3 : L’utilisateur n’a pas un compte.
+
+o   E3.1 : Le système affiche « Vous n’avez pas un compte»
+
+o   E3.2 : Diriger vars le page « Créer Compte ».
+
+Fin d’interaction.
