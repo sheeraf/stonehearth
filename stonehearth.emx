@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.5-->
+<!--Rational Software Architect Designer 9.6-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
@@ -767,6 +767,27 @@
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K8DkYbQEEeesGLJvJo4B7A" points="[24, 70, -134, -117]$[88, 125, -70, -62]"/>
         </edges>
       </contents>
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_92YdYLfOEeeI18AxgcJolw" type="Usecase" name="---">
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="__TGTALfOEeeI18AxgcJolw" element="_607sAKgfEeekV7RhIigQEA" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="__THhILfOEeeI18AxgcJolw" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="__THhIbfOEeeI18AxgcJolw" width="1455" height="2381"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="__THhIrfOEeeI18AxgcJolw" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="__TIIMLfOEeeI18AxgcJolw" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="__TIIMbfOEeeI18AxgcJolw" type="Parent"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__TG6ELfOEeeI18AxgcJolw" x="7725" y="3545"/>
+        </children>
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="__tz5ELfOEeeI18AxgcJolw" element="_2VgMcLMZEeesy7Ot7Z3fVQ" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="__t0gILfOEeeI18AxgcJolw" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="__t0gIbfOEeeI18AxgcJolw" width="1455" height="2381"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="__t0gIrfOEeeI18AxgcJolw" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="__t1HMLfOEeeI18AxgcJolw" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="__t1HMbfOEeeI18AxgcJolw" type="Parent"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__tz5EbfOEeeI18AxgcJolw" x="11352" y="3564"/>
+        </children>
+        <element xsi:nil="true"/>
+      </contents>
     </eAnnotations>
     <ownedComment xmi:id="_zyCNULMdEeesy7Ot7Z3fVQ" annotatedElement="_gQjgUKgdEeekV7RhIigQEA">
       <body>../../../../../../../Etu6/3776546/IBM/rationalsdp/workspace/sheeraf_stonehearth/classdiagram.dnx</body>
@@ -904,7 +925,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_FnqyYK2dEeeVI8Q3HMy_MA" name="Ouvrir Pack"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_sJGwgK2gEeeVI8Q3HMy_MA" name="Categorie">
-      <ownedAttribute xmi:id="_yKPXEK2hEeeVI8Q3HMy_MA" name="cARD" visibility="private" type="_wwZEsK2gEeeVI8Q3HMy_MA" association="_yKOwAK2hEeeVI8Q3HMy_MA">
+      <ownedAttribute xmi:id="_yKPXEK2hEeeVI8Q3HMy_MA" name="Carte" visibility="private" type="_wwZEsK2gEeeVI8Q3HMy_MA" association="_yKOwAK2hEeeVI8Q3HMy_MA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yKP-Ia2hEeeVI8Q3HMy_MA" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yKP-IK2hEeeVI8Q3HMy_MA"/>
       </ownedAttribute>
@@ -919,11 +940,11 @@
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_wwZEsK2gEeeVI8Q3HMy_MA" name="Carte">
-      <ownedAttribute xmi:id="_yKQlMK2hEeeVI8Q3HMy_MA" name="categorie" visibility="private" type="_sJGwgK2gEeeVI8Q3HMy_MA" association="_yKOwAK2hEeeVI8Q3HMy_MA">
+      <ownedAttribute xmi:id="_yKQlMK2hEeeVI8Q3HMy_MA" name="Categorie" visibility="private" type="_sJGwgK2gEeeVI8Q3HMy_MA" association="_yKOwAK2hEeeVI8Q3HMy_MA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yKRMQa2hEeeVI8Q3HMy_MA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yKRMQK2hEeeVI8Q3HMy_MA" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_zSfYkq2hEeeVI8Q3HMy_MA" name="dECK" visibility="private" type="_xYkfAK2gEeeVI8Q3HMy_MA" association="_zSeKcK2hEeeVI8Q3HMy_MA">
+      <ownedAttribute xmi:id="_zSfYkq2hEeeVI8Q3HMy_MA" name="Deck" visibility="private" type="_xYkfAK2gEeeVI8Q3HMy_MA" association="_zSeKcK2hEeeVI8Q3HMy_MA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zSf_oa2hEeeVI8Q3HMy_MA" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zSf_oK2hEeeVI8Q3HMy_MA"/>
       </ownedAttribute>
@@ -939,7 +960,7 @@
       <ownedAttribute xmi:id="_sprUsK2lEeeVI8Q3HMy_MA" name="description" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_0R2j0a2hEeeVI8Q3HMy_MA" name="pACK" visibility="private" type="_2K2iQK2gEeeVI8Q3HMy_MA" association="_0R1VsK2hEeeVI8Q3HMy_MA">
+      <ownedAttribute xmi:id="_0R2j0a2hEeeVI8Q3HMy_MA" name="Pack" visibility="private" type="_2K2iQK2gEeeVI8Q3HMy_MA" association="_0R1VsK2hEeeVI8Q3HMy_MA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_d15NobQDEeesGLJvJo4B7A" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_d15NoLQDEeesGLJvJo4B7A"/>
       </ownedAttribute>
@@ -952,17 +973,17 @@
       <ownedAttribute xmi:id="_CZFXcLM4EeeXSuyBfqzHrg" name="imageUri" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_K76acLQEEeesGLJvJo4B7A" name="collection" visibility="private" type="_ouaPULQDEeesGLJvJo4B7A" association="_K75MULQEEeesGLJvJo4B7A">
+      <ownedAttribute xmi:id="_K76acLQEEeesGLJvJo4B7A" name="Collection" visibility="private" type="_ouaPULQDEeesGLJvJo4B7A" association="_K75MULQEEeesGLJvJo4B7A">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_K77okLQEEeesGLJvJo4B7A" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_K77BgLQEEeesGLJvJo4B7A" value="1"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_xYkfAK2gEeeVI8Q3HMy_MA" name="Deck">
-      <ownedAttribute xmi:id="_zSexgK2hEeeVI8Q3HMy_MA" name="cARD" visibility="private" type="_wwZEsK2gEeeVI8Q3HMy_MA" association="_zSeKcK2hEeeVI8Q3HMy_MA">
+      <ownedAttribute xmi:id="_zSexgK2hEeeVI8Q3HMy_MA" name="Carte" visibility="private" type="_wwZEsK2gEeeVI8Q3HMy_MA" association="_zSeKcK2hEeeVI8Q3HMy_MA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zSfYka2hEeeVI8Q3HMy_MA" value="30"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zSfYkK2hEeeVI8Q3HMy_MA" value="30"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_GiGBAa2iEeeVI8Q3HMy_MA" name="pLAYER" visibility="private" type="_EVYHQK2hEeeVI8Q3HMy_MA" association="_GiGBAK2iEeeVI8Q3HMy_MA">
+      <ownedAttribute xmi:id="_GiGBAa2iEeeVI8Q3HMy_MA" name="Compte" visibility="private" type="_EVYHQK2hEeeVI8Q3HMy_MA" association="_GiGBAK2iEeeVI8Q3HMy_MA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GiGoEa2iEeeVI8Q3HMy_MA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GiGoEK2iEeeVI8Q3HMy_MA" value="1"/>
       </ownedAttribute>
@@ -977,7 +998,7 @@
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_2K2iQK2gEeeVI8Q3HMy_MA" name="Pack">
-      <ownedAttribute xmi:id="_0R18wK2hEeeVI8Q3HMy_MA" name="cARD" visibility="private" type="_wwZEsK2gEeeVI8Q3HMy_MA" association="_0R1VsK2hEeeVI8Q3HMy_MA">
+      <ownedAttribute xmi:id="_0R18wK2hEeeVI8Q3HMy_MA" name="Carte" visibility="private" type="_wwZEsK2gEeeVI8Q3HMy_MA" association="_0R1VsK2hEeeVI8Q3HMy_MA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0R2j0K2hEeeVI8Q3HMy_MA" value="5"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0R18wa2hEeeVI8Q3HMy_MA" value="5"/>
       </ownedAttribute>
@@ -987,7 +1008,7 @@
       <ownedAttribute xmi:id="_E_qGMLM6EeeXSuyBfqzHrg" name="prixEnDollarCents ; Integer" visibility="private"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_EVYHQK2hEeeVI8Q3HMy_MA" name="Compte">
-      <ownedAttribute xmi:id="_GiGoEq2iEeeVI8Q3HMy_MA" name="dECK" visibility="private" type="_xYkfAK2gEeeVI8Q3HMy_MA" association="_GiGBAK2iEeeVI8Q3HMy_MA">
+      <ownedAttribute xmi:id="_GiGoEq2iEeeVI8Q3HMy_MA" name="Deck" visibility="private" type="_xYkfAK2gEeeVI8Q3HMy_MA" association="_GiGBAK2iEeeVI8Q3HMy_MA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GiHPIa2iEeeVI8Q3HMy_MA" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GiHPIK2iEeeVI8Q3HMy_MA"/>
       </ownedAttribute>
@@ -1045,9 +1066,7 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_kfMmkK2lEeeVI8Q3HMy_MA" name="PrimitiveTypes">
       <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_kfMmka2lEeeVI8Q3HMy_MA" name="int"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_2VgMcLMZEeesy7Ot7Z3fVQ" name="Joueur non connecté">
-      <generalization xmi:id="_HMCrwLMaEeesy7Ot7Z3fVQ" general="_607sAKgfEeekV7RhIigQEA"/>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_2VgMcLMZEeesy7Ot7Z3fVQ" name="Joueur non connecté"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_qzrSkLMaEeesy7Ot7Z3fVQ" name="Ajouter donnees bancaires">
       <extend xmi:id="_OU3dsLMcEeesy7Ot7Z3fVQ" extendedCase="_JyKHgLMcEeesy7Ot7Z3fVQ" extensionLocation="_OU4EwLMcEeesy7Ot7Z3fVQ"/>
       <extend xmi:id="_QWewILMcEeesy7Ot7Z3fVQ" extendedCase="_kIDO8KggEeekV7RhIigQEA" extensionLocation="_QWfXMLMcEeesy7Ot7Z3fVQ"/>
@@ -1093,7 +1112,7 @@
       <ownedAttribute xmi:id="_4BD6ALQDEeesGLJvJo4B7A" name="nbcartes" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_K782sLQEEeesGLJvJo4B7A" name="carte" visibility="private" type="_wwZEsK2gEeeVI8Q3HMy_MA" association="_K75MULQEEeesGLJvJo4B7A">
+      <ownedAttribute xmi:id="_K782sLQEEeesGLJvJo4B7A" name="Carte" visibility="private" type="_wwZEsK2gEeeVI8Q3HMy_MA" association="_K75MULQEEeesGLJvJo4B7A">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_K7-E0LQEEeesGLJvJo4B7A" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_K79dwLQEEeesGLJvJo4B7A"/>
       </ownedAttribute>
@@ -2881,7 +2900,7 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_F0W3UrZgEeec9vQ-UP3u7g" type="MessageNameLabel">
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_F0XeYbZgEeec9vQ-UP3u7g" type="Stereotype"/>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_F0XeYrZgEeec9vQ-UP3u7g" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F0XeYLZgEeec9vQ-UP3u7g" y="-317"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F0XeYLZgEeec9vQ-UP3u7g" x="98" y="-2477"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_F0W3UbZgEeec9vQ-UP3u7g" points="[0, 0, 0, -10]$[0, 10, 0, 0]"/>
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_F0ahsLZgEeec9vQ-UP3u7g" id="319:132"/>
