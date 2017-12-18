@@ -44,7 +44,7 @@ public class GetCardAction extends CommandAction {
 		sb.append(Finals.NEWLINE);
 		sb.append("Description: " + card.getDescription());
 		sb.append(Finals.NEWLINE);
-		sb.append("Category: " + card.getCategorie());
+		sb.append("Category: " + card.getCategorie().getNom());
 		sb.append(Finals.NEWLINE);
 		sb.append("Image: " + card.getImage());
 		sb.append(Finals.NEWLINE);
