@@ -4,7 +4,9 @@
 package conception.carte;
 
 import conception.interfaces.ICarte;
+
 import java.util.Set;
+
 import conception.deck.Deck;
 import conception.pack.Pack;
 import conception.collection.Collection;
@@ -71,6 +73,17 @@ public class Carte implements ICarte {
 	 */
 	private Collection Collection;
 
+	public Carte(conception.carte.Categorie categorie, Integer attaque,
+			Integer defense, String nom, String description, String imageUri) {
+
+		Categorie = categorie;
+		this.attaque = attaque;
+		this.defense = defense;
+		this.nom = nom;
+		this.description = description;
+		this.imageUri = imageUri;
+	}
+
 	/** 
 	 * (non-Javadoc)
 	 * @see ICarte#getAttaque()
@@ -79,7 +92,7 @@ public class Carte implements ICarte {
 	public Integer getAttaque() {
 		// begin-user-code
 		// TODO Module de remplacement de méthode auto-généré
-		return null;
+		return attaque;
 		// end-user-code
 	}
 
@@ -91,7 +104,7 @@ public class Carte implements ICarte {
 	public Integer getDefense() {
 		// begin-user-code
 		// TODO Module de remplacement de méthode auto-généré
-		return null;
+		return defense;
 		// end-user-code
 	}
 
@@ -103,7 +116,7 @@ public class Carte implements ICarte {
 	public String getNom() {
 		// begin-user-code
 		// TODO Module de remplacement de méthode auto-généré
-		return null;
+		return nom;
 		// end-user-code
 	}
 
@@ -115,7 +128,7 @@ public class Carte implements ICarte {
 	public String getDescription() {
 		// begin-user-code
 		// TODO Module de remplacement de méthode auto-généré
-		return null;
+		return description;
 		// end-user-code
 	}
 
@@ -127,7 +140,7 @@ public class Carte implements ICarte {
 	public String getImage() {
 		// begin-user-code
 		// TODO Module de remplacement de méthode auto-généré
-		return null;
+		return imageUri;
 		// end-user-code
 	}
 
@@ -139,7 +152,7 @@ public class Carte implements ICarte {
 	public Categorie getCategorie() {
 		// begin-user-code
 		// TODO Module de remplacement de méthode auto-généré
-		return null;
+		return Categorie;
 		// end-user-code
 	}
 }
