@@ -24,7 +24,7 @@ public class CliUi {
 			.getSimpleName());
 
 	static {
-		loadLoggerConf();
+//		loadLoggerConf();
 	}
 
 	public void start() {
@@ -56,18 +56,6 @@ public class CliUi {
 
 	}
 
-	// temporary
-	public static List<ICarte> generateCards() {
-		List<ICarte> cards = new ArrayList<>();
-		Random random = new Random();
-		for (int i = 0; i < 100; i++) {
-			ICarte c = new Carte(null, random.nextInt(10), random.nextInt(10), 
-					"Dragon " + i, "Mighty dragon", 
-					"https://some.image/over-here");
-			cards.add(c);
-		}
-		return cards;
-	}
 	
 	private static void loadLoggerConf() {
 		final InputStream inputStream = Main.class

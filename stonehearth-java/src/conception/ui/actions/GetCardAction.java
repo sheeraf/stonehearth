@@ -6,11 +6,12 @@ import java.util.stream.Collectors;
 import conception.interfaces.ICarte;
 import conception.ui.CliUi;
 import conception.ui.Finals;
+import conception.ui.MonsterGenerator;
 
 public class GetCardAction extends CommandAction {
 
 	// TODO get from factory
-	List<ICarte> cards = CliUi.generateCards();
+	List<ICarte> cards = MonsterGenerator.getMonsters();
 
 	@Override
 	public String perform(String params) {
@@ -24,7 +25,7 @@ public class GetCardAction extends CommandAction {
 		sb.append(Finals.NEWLINE);
 		
 		cards.stream()
-			.filter(c -> c.getNom().toLowerCase().contains(params))
+			.filter(c -> c.getNom().toLowerCase().contains(params.toLowerCase()))
 			.forEach(c -> sb.append(drawCard(c)));
 		
 		sb.append(Finals.NEWLINE);

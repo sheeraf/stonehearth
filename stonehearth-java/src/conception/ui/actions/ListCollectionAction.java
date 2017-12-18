@@ -5,11 +5,12 @@ import java.util.List;
 import conception.interfaces.ICarte;
 import conception.ui.CliUi;
 import conception.ui.Finals;
+import conception.ui.MonsterGenerator;
 
 public class ListCollectionAction extends CommandAction {
 
 	// TODO get from factory
-	List<ICarte> cards = CliUi.generateCards();
+	List<ICarte> cards = MonsterGenerator.getMonsters();
 
 	@Override
 	public String perform(String params) {
