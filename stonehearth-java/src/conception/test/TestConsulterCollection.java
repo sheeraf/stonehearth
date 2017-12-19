@@ -54,11 +54,7 @@ public class TestConsulterCollection {
 		cards.add(basic);
 		MonsterGenerator.getMonsters().add(basic);
 		
-		String selected = cards.stream()
-				.filter(c -> c.getCategorie().getPrixDetruire() < 0)
-				.findAny()
-				.get()
-				.getNom();
+		String selected = basic.getNom();
 		
 		ICarte card = gestCartes.getCarte(selected);
 		
