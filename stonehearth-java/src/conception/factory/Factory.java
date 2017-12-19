@@ -20,7 +20,7 @@ public class Factory {
 			new Categorie("Rare", 50, 5),
 			new Categorie("Legendary", 200, 20));
 	
-	public static final Compte BOB =  new Compte(13, 123, 2, "Bob");
+	public static final Compte BOB =  new Compte(13, 3000, 2, "Bob");
 	
 	public static final ICollection BOB_COLLECTION = createBobCollection(50);
 	

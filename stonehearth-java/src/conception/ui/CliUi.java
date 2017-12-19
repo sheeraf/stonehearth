@@ -12,6 +12,7 @@ import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
 import conception.carte.Carte;
+import conception.factory.Factory;
 import conception.interfaces.ICarte;
 import conception.ui.actions.UiCommand;
 import conception.ui.actions.UiUserException;
@@ -29,6 +30,7 @@ public class CliUi {
 
 	public void start() {
 		System.out.println("StoneHearth");
+		System.out.println("Hello, " + Factory.BOB.getNom());
 		System.out.println("Enter command, for example help");
 
 		while (true) {

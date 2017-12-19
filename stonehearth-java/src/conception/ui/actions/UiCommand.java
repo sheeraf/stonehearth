@@ -9,7 +9,11 @@ public enum UiCommand {
 	HELP(new HelpAction(), "Get help", "h"),
 	LIST(new ListCollectionAction(), "List player collection of cards", "l"),
 	GET_CARD(new GetCardAction(), 
-			"Get card by name for example: get_card dragon", "card");
+			"Get card by name for example: get_card dragon", "card"),
+	GET_ACCOUNT(new GetAccountAction(), 
+					"Get account information", "account", "acc"),
+	PLAY(new PlayAction(), 
+			"Play against an opponent", "play");
 
 	private static Map<String, UiCommand> aliases = new HashMap<>();
 
