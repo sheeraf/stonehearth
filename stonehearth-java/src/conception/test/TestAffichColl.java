@@ -12,13 +12,13 @@ public class TestAffichColl {
 
 	@Test
 	public void test() {
-		ICollection laColl = Factory.createBobCollection();
+		ICollection laColl = Factory.BOB_COLLECTION;
 		
+		assertFalse(laColl.listerCartes().isEmpty());
 		
 		for (  ICarte carte : laColl.listerCartes()) {
-			System.out.println(carte.getDescription());
+			System.out.println(carte.getNom());
 		}
-		
 		
 	}
 

@@ -29,6 +29,7 @@ public class CliUi {
 
 	public void start() {
 		System.out.println("StoneHearth");
+		System.out.println("Enter command, for example help");
 
 		while (true) {
 			try {

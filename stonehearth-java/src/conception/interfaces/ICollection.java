@@ -3,6 +3,7 @@
  */
 package conception.interfaces;
 
+import java.util.List;
 import java.util.Set;
 
 /** 
@@ -38,14 +39,6 @@ public interface ICollection {
 	 */
 	public Boolean detruireCarte(String nom);
 
-	/** 
-	 * <!-- begin-UML-doc -->
-	 * <!-- end-UML-doc -->
-	 * @param nom
-	 * @return
-	 * @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
-	 */
-	public Boolean enleverCarte(String nom);
 
 	/** 
 	 * <!-- begin-UML-doc -->
@@ -62,7 +55,7 @@ public interface ICollection {
 	 * @return
 	 * @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	public Set<ICarte> listerCartes();
+	public List<ICarte> listerCartes();
 
 	/** 
 	 * <!-- begin-UML-doc -->

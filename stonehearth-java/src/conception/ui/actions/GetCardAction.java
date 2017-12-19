@@ -3,6 +3,7 @@ package conception.ui.actions;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import conception.factory.Factory;
 import conception.interfaces.ICarte;
 import conception.ui.CliUi;
 import conception.ui.Finals;
@@ -11,7 +12,7 @@ import conception.ui.MonsterGenerator;
 public class GetCardAction extends CommandAction {
 
 	// TODO get from factory
-	List<ICarte> cards = MonsterGenerator.getMonsters();
+	List<ICarte> cards = Factory.BOB_COLLECTION.listerCartes();
 
 	@Override
 	public String perform(String params) {
