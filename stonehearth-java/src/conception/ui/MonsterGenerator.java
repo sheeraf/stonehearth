@@ -27,10 +27,10 @@ public class MonsterGenerator {
 		try (Stream<String> monsters = Files.lines(
 				Paths.get("monsters.txt"), StandardCharsets.UTF_8)){
 			Random random = new Random();
-			Categorie cat = Factory.CATEGORIES.get(
-					random.nextInt(Factory.CATEGORIES.size()));
 			
-			return monsters.map(m -> new Carte(cat, random.nextInt(10), 
+			return monsters.map(m -> new Carte(
+					Factory.CATEGORIES.get(
+							random.nextInt(Factory.CATEGORIES.size())), random.nextInt(10), 
 					random.nextInt(10), m, DESC,
 					"https://i.imgur.com/" + m.hashCode() + ".png"))
 					.collect(Collectors.toList());

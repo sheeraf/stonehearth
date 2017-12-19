@@ -155,4 +155,57 @@ public class Carte implements ICarte {
 		return Categorie;
 		// end-user-code
 	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((attaque == null) ? 0 : attaque.hashCode());
+		result = prime * result + ((defense == null) ? 0 : defense.hashCode());
+		result = prime * result
+				+ ((description == null) ? 0 : description.hashCode());
+		result = prime * result
+				+ ((imageUri == null) ? 0 : imageUri.hashCode());
+		result = prime * result + ((nom == null) ? 0 : nom.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Carte other = (Carte) obj;
+		if (attaque == null) {
+			if (other.attaque != null)
+				return false;
+		} else if (!attaque.equals(other.attaque))
+			return false;
+		if (defense == null) {
+			if (other.defense != null)
+				return false;
+		} else if (!defense.equals(other.defense))
+			return false;
+		if (description == null) {
+			if (other.description != null)
+				return false;
+		} else if (!description.equals(other.description))
+			return false;
+		if (imageUri == null) {
+			if (other.imageUri != null)
+				return false;
+		} else if (!imageUri.equals(other.imageUri))
+			return false;
+		if (nom == null) {
+			if (other.nom != null)
+				return false;
+		} else if (!nom.equals(other.nom))
+			return false;
+		return true;
+	}
+	
+	
 }

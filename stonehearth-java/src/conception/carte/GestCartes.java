@@ -4,7 +4,11 @@
 package conception.carte;
 
 import conception.interfaces.ICartes;
+
+import java.util.List;
+import java.util.Optional;
 import java.util.Set;
+
 import conception.interfaces.ICarte;
 
 /** 
@@ -19,7 +23,13 @@ public class GestCartes implements ICartes {
 	 * <!-- end-UML-doc -->
 	 * @generated "UML vers Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
 	 */
-	private Set<Carte> carte;
+	private List<ICarte> cards;
+
+	
+	public GestCartes(List<ICarte> cards) {
+		this.cards = cards;
+	}
+
 
 	/** 
 	 * (non-Javadoc)
@@ -28,7 +38,11 @@ public class GestCartes implements ICartes {
 	 */
 	public ICarte getCarte(String nom) {
 		// begin-user-code
-		// TODO Module de remplacement de méthode auto-généré
+		Optional<ICarte> card = cards.stream()
+				.filter(c -> c.getNom().equals(nom)).findAny();
+		if (card.isPresent()) {
+			return card.get();
+		}
 		return null;
 		// end-user-code
 	}

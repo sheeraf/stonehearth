@@ -21,5 +21,21 @@ public class TestAffichColl {
 		}
 		
 	}
+	
+	@Test
+	public void testNoNulls() {
+		ICollection laColl = Factory.BOB_COLLECTION;
+		
+		for (  ICarte carte : laColl.listerCartes()) {
+			assertNotNull(carte.getAttaque());
+			assertNotNull(carte.getDefense());
+			assertNotNull(carte.getDescription());
+			assertNotNull(carte.getImage());
+			assertNotNull(carte.getNom());
+			assertNotNull(carte.getCategorie());
+		}
+
+		
+	}
 
 }

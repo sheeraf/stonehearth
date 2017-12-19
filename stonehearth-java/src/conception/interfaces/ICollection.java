@@ -49,6 +49,8 @@ public interface ICollection {
 	 */
 	public Boolean ajouterCarte(String nom);
 
+	public Boolean ajouterCarte(ICarte card);
+	
 	/** 
 	 * <!-- begin-UML-doc -->
 	 * <!-- end-UML-doc -->
