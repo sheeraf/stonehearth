@@ -12,7 +12,7 @@ import conception.ui.MonsterGenerator;
 public class GetCardAction extends CommandAction {
 
 	// TODO get from factory
-	List<ICarte> cards = Factory.BOB_COLLECTION.listerCartes();
+	List<ICarte> cards = MonsterGenerator.getMonsters();
 
 	@Override
 	public String perform(String params) {
@@ -24,11 +24,13 @@ public class GetCardAction extends CommandAction {
 		StringBuilder sb = new StringBuilder();
 		sb.append("Getting card:");
 		sb.append(Finals.NEWLINE);
-		
+		int before = sb.length();
 		cards.stream()
 			.filter(c -> c.getNom().toLowerCase().contains(params.toLowerCase()))
 			.forEach(c -> sb.append(drawCard(c)));
-		
+		if (before == sb.length()) {
+			sb.append("No card found with given name");
+		}
 		sb.append(Finals.NEWLINE);
 		return sb.toString();
 	}

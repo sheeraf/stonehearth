@@ -34,7 +34,7 @@ public class Factory {
 		copy = copy.subList(0, numOfElements);
 		
 		copy.forEach(collection::ajouterCarte);
-		
+		BOB.setJoyaux(100);
 		return collection;
 	}
 

@@ -8,10 +8,15 @@ public enum UiCommand {
 	QUIT(new ExitAction(), "Exit game", "q", "exit"), 
 	HELP(new HelpAction(), "Get help", "h"),
 	LIST(new ListCollectionAction(), "List player collection of cards", "l"),
+	LIST_STORE(new ListStoreAction(), "List cards in store", "store"),
 	GET_CARD(new GetCardAction(), 
 			"Get card by name for example: get_card dragon", "card"),
+	DESTROY_CARD(new DestroyCardAction(), 
+			"Destroy card by name for example: destroy_card Wizard Sapindy", "destroy"),
+	BUY_CARD(new BuyCardAction(), 
+			"Buy card by name for example: buy_card Wizard Sapindy", "buy"),
 	GET_ACCOUNT(new GetAccountAction(), 
-					"Get account information", "account", "acc"),
+			"Get account information", "account", "acc"),
 	PLAY(new PlayAction(), 
 			"Play against an opponent", "play");
 
